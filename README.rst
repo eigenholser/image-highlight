@@ -12,8 +12,8 @@ Installation
 Clone the repository. Create a Python virtual environment. This program may
 work with Python 2.::
 
-    cd image-highlighter
-    mkvirtualenv --python=/usr/bin/python3 image-highlighter
+    cd image-highlight
+    mkvirtualenv --python=/usr/bin/python3 image-highlight
     setvirtualenvproject
     pip install -r requirements.txt
 
@@ -24,7 +24,7 @@ Invocation
 
 Invoke like this::
 
-    python highlighter.py --image /path/to/image.jpg \
+    python highlight.py --image /path/to/image.jpg \
         --highlights /path/to/highlights.json
 
 ----------------------
